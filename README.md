@@ -17,7 +17,7 @@ Clone this repository to your local environment using the following command:
 
 ## bash
 
-git clone https://github.com/yourusername/ecommerce.git
+git clone https://github.com/bellaloc/ecommerce.git
 Navigate to the project directory:
 
 
