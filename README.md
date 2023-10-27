@@ -20,8 +20,8 @@ Clone this repository to your local environment using the following command:
 git clone https://github.com/bellaloc/ecommerce.git
 Navigate to the project directory:
 
-
 cd ecommerce
+
 Install the required dependencies:
 
 npm install
@@ -34,9 +34,16 @@ DB_USER='root'
 DB_PASSWORD='Password'
 
 
-Create and seed the database:
+## in mySql run the tables:
+
+DROP DATABASE IF EXISTS ecommerce_db;
+
+CREATE DATABASE ecommerce_db;
+
+## Create and seed the database:
 
 npm run seed
+or node seeds/index.js
 
 Start the server:
 npm start
