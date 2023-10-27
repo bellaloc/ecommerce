@@ -27,11 +27,12 @@ Install the required dependencies:
 npm install
 Configure the database connection by creating a .env file in the root directory and adding the following environment variables:
 
-makefile in schema.sql:
+makefile in .ENV:
 
-DB_NAME=your_database_name
-DB_USER=your_database_user
-DB_PASSWORD=your_database_password
+DB_NAME='ecommerce_db'
+DB_USER='root'
+DB_PASSWORD='Password'
+
 
 Create and seed the database:
 
